@@ -6,7 +6,10 @@
 				"src",
 				"<!(node -e \"require('nan')\")",
 				"src/3rdparty",
-				"src/3rdparty/libcpuid"
+				"src/3rdparty/libcpuid",
+				"src/base/kernel/interfaces",
+				"src/base/io/json",
+				"src/backend/common/interfaces"
 			],
 			"sources": [
 				"src/xmrig.cpp",
@@ -28,6 +31,15 @@
 				"src/core/config/Config.cpp",
 				"src/core/Controller.cpp",
 				"src/net/Network.cpp",
+				"src/base/kernel/config/BaseConfig.cpp",
+				"src/base/kernel/Base.cpp",
+				"src/core/config/ConfigTransform.cpp",
+				"src/crypto/common/Nonce.cpp",
+				"src/base/io/json/JsonChain.cpp",
+				"src/base/io/json/Json.cpp",
+				"src/base/net/stratum/BaseClient.cpp",
+				"src/core/Miner.cpp",
+				"src/base/tools/String.cpp",
 				"src/net/strategies/DonateStrategy.cpp",
 				"src/Summary.cpp",
 				"src/backend/cpu/CpuThread.cpp",
