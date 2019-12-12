@@ -43,6 +43,7 @@
 				"src/base/io/json/JsonChain.cpp",
 				"src/base/io/json/Json.cpp",
 				"src/base/io/json/Json_unix.cpp",
+				"src/base/net/stratum/Url.cpp",
 				"src/base/net/stratum/BaseClient.cpp",
 				"src/core/Miner.cpp",
 				"src/base/tools/String.cpp",
